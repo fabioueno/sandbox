@@ -8,8 +8,8 @@ Programming Language"** (2nd Edition).
 I'm currently working through the book's chapters. Each chapter's code will be
 organized in its own subdirectory (e.g., `chapter-03/`).
 
-- [ ] **Chapter 01: Getting Started**
-- [ ] **Chapter 02: Programming a Guessing Game**
+- [x] **Chapter 01: Getting Started**
+- [x] **Chapter 02: Programming a Guessing Game**
 - [ ] **Chapter 03: Common Programming Concepts**
 - [ ] **Chapter 04: Understanding Ownership**
 - [ ] **Chapter 05: Using Structs to Structure Related Data**
