@@ -5,6 +5,12 @@ Language".
 
 ## Progress
 
-- [ ] Installation
-- [ ] Hello, World!
-- [ ] Hello, Cargo!
+- [x] Installation
+- [x] Hello, World!
+- [x] Hello, Cargo!
+
+## Projects
+
+- **01. Hello, world!**: Simple program to print "Hello, world!".
+- **02. Hello, Cargo!**: Simple program to show Cargo, the build system and
+  package manager.
