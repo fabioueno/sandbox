@@ -106,3 +106,7 @@ fn borrow_mutable_reference(s: &mut String) { ... }
 > ```
 
 ## The Slice Type
+
+General ideas:
+- A slice is a reference to a contiguous sequence of elements in a collection.
+- The string slice type is `&str`.

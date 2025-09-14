@@ -13,7 +13,7 @@ organized in its own subdirectory (e.g., `chapter-03/`).
 - [x] **Chapter 01: Getting Started**
 - [x] **Chapter 02: Programming a Guessing Game**
 - [x] **Chapter 03: Common Programming Concepts**
-- [ ] **Chapter 04: Understanding Ownership**
+- [x] **Chapter 04: Understanding Ownership**
 - [ ] **Chapter 05: Using Structs to Structure Related Data**
 - [ ] **Chapter 06: Enums and Pattern Matching**
 - [ ] **Chapter 07: Managing Growing Projects with Packages, Crates, and Modules**

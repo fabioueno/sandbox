@@ -7,4 +7,4 @@ Programming Language".
 
 - [x] What Is Ownership?
 - [x] References and Borrowing
-- [ ] The Slice Type
+- [x] The Slice Type
