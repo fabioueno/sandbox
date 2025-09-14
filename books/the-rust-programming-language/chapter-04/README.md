@@ -5,6 +5,6 @@ Programming Language".
 
 ## Progress
 
-- [ ] What Is Ownership?
-- [ ] References and Borrowing
+- [x] What Is Ownership?
+- [x] References and Borrowing
 - [ ] The Slice Type
