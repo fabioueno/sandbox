@@ -91,7 +91,7 @@ The `parse` method converts strings to other types.
 > [!NOTE]
 > Not parsing the string creates a compilation error:
 > ```plain
-> Compiling guessing_game v0.1.0 (/Users/fabioueno/Projects/sandbox/books/the-rust-programming-language/chapter-02/guessing_game)
+> Compiling guessing_game v0.1.0 (/.../chapter-02/guessing_game)
 > error[E0308]: mismatched types
 > --> src/main.rs:27:25
 > |
@@ -103,7 +103,7 @@ The `parse` method converts strings to other types.
 > = note: expected reference `&String`
 > found reference `&{integer}`
 > note: method defined here
-> --> /Users/fabioueno/.rustup/toolchains/1.89.0-aarch64-apple-darwin/lib/rustlib/src/rust/library/core/src/cmp.rs:976:8
+> --> /.../rustlib/src/rust/library/core/src/cmp.rs:976:8
 > |
 > 976 |     fn cmp(&self, other: &Self) -> Ordering;
 > |        ^^^
