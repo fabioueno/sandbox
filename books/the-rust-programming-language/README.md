@@ -32,4 +32,3 @@ organized in its own subdirectory (e.g., `chapter-03/`).
 - [ ] **Appendix B: Operators and Symbols**
 - [ ] **Appendix C: Derivable Traits**
 - [ ] **Appendix D: Useful Development tools**
-- [ ] **Appendix E: Editions**
