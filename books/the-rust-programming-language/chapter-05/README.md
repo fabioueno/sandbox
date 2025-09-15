@@ -5,6 +5,11 @@ Language".
 
 ## Progress
 
-- [ ] Defining and Instantiating Structs
-- [ ] An Example Program Using Structs
-- [ ] Method Syntax
+- [x] Defining and Instantiating Structs
+- [x] An Example Program Using Structs
+- [x] Method Syntax
+
+## Projects
+
+- **04. Rectangles**: Simple project to show the usage of structs, including
+  definition, instantiation, associated functions, and the `Debug` trait.
