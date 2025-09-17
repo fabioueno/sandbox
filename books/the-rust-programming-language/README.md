@@ -15,7 +15,7 @@ organized in its own subdirectory (e.g., `chapter-03/`).
 - [x] **Chapter 03: Common Programming Concepts**
 - [x] **Chapter 04: Understanding Ownership**
 - [x] **Chapter 05: Using Structs to Structure Related Data**
-- [ ] **Chapter 06: Enums and Pattern Matching**
+- [x] **Chapter 06: Enums and Pattern Matching**
 - [ ] **Chapter 07: Managing Growing Projects with Packages, Crates, and Modules**
 - [ ] **Chapter 08: Common Collections**
 - [ ] **Chapter 09: Error Handling**

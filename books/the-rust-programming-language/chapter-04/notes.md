@@ -2,7 +2,6 @@
 
 ## What Is Ownership?
 
-> [!NOTE]
 > _Ownership is a set of rules that govern how a Rust program manages memory.
 > All programs have to manage the way they use a computer's memory while
 > running. Some languages have garbage collection that regularly looks for

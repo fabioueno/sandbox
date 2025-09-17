@@ -5,6 +5,6 @@ Language".
 
 ## Progress
 
-- [ ] Defining an enum
-- [ ] The match Control Flow Construct
-- [ ] Concise Control Flow with if let
+- [x] Defining an enum
+- [x] The match Control Flow Construct
+- [x] Concise Control Flow with if let
