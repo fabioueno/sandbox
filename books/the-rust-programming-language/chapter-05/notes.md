@@ -19,7 +19,7 @@ General ideas:
 
 > [!NOTE]
 > Attempting to print a struct raises a compilation error:
-> ```bash
+> ```text
 > error[E0277]: `Rectangle` doesn't implement `std::fmt::Display`
 > --> src/main.rs:7:67
 > |
@@ -34,7 +34,7 @@ General ideas:
 > ```
 > 
 > Trying to use the suggested `{:?}` raises a different compilation error:
-> ```bash
+> ```text
 > error[E0277]: `Rectangle` doesn't implement `Debug`
 > --> src/main.rs:7:69
 > |
