@@ -24,7 +24,7 @@ a type that handles the terminal's standard input.
 
 > [!NOTE]
 > If we don't add the `use` statement, the error looks like this:
-> ```plain
+> ```text
 >    Compiling guessing_game v0.1.0 (/Users/fabioueno/Projects/sandbox/books/the-rust-programming-language/chapter-02/guessing_game)
 > error[E0433]: failed to resolve: use of unresolved module or unlinked crate `io`
 >   --> src/main.rs:10:5
@@ -49,7 +49,7 @@ a type that handles the terminal's standard input.
 
 > [!NOTE]
 > Not handling the `Result` trigger a compilation warning:
-> ```plain
+> ```text
 > warning: unused `Result` that must be used
 >   --> src/main.rs:10:5
 >    |
@@ -90,7 +90,7 @@ The `parse` method converts strings to other types.
 
 > [!NOTE]
 > Not parsing the string creates a compilation error:
-> ```plain
+> ```text
 > Compiling guessing_game v0.1.0 (/.../chapter-02/guessing_game)
 > error[E0308]: mismatched types
 > --> src/main.rs:27:25

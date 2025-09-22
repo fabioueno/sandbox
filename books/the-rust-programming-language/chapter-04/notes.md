@@ -33,8 +33,7 @@ General ideas:
 
 > [!NOTE]
 > Trying to access an invalid reference produces a compilation error:
-> ```bash
-> cargo build
+> ```text
 >    Compiling strings v0.1.0 (/.../chapter-04/strings)
 > error[E0382]: borrow of moved value: `s1`
 >  --> src/main.rs:5:16
@@ -81,7 +80,7 @@ fn borrow_mutable_reference(s: &mut String) { ... }
 > [!NOTE]
 > Creating a variable and returning a reference to it inside a function creates
 > a dangling pointer, and Rust prevents it with a compile-time error:
-> ```bash
+> ```text
 >    Compiling ownership v0.1.0 (/.../chapter-04/ownership)
 > error[E0106]: missing lifetime specifier
 > --> src/main.rs:84:16
