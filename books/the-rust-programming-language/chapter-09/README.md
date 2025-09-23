@@ -5,6 +5,6 @@ Language".
 
 ## Progress
 
-- [ ] Unrecoverable Errors with panic!
-- [ ] Recoverable Errors with Result
+- [x] Unrecoverable Errors with panic!
+- [x] Recoverable Errors with Result
 - [ ] To panic! or Not to panic!
