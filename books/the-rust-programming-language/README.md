@@ -18,7 +18,7 @@ organized in its own subdirectory (e.g., `chapter-03/`).
 - [x] **Chapter 06: Enums and Pattern Matching**
 - [x] **Chapter 07: Managing Growing Projects with Packages, Crates, and Modules**
 - [x] **Chapter 08: Common Collections**
-- [ ] **Chapter 09: Error Handling**
+- [x] **Chapter 09: Error Handling**
 - [ ] **Chapter 10: Generic Types, Traits, and Lifetimes**
 - [ ] **Chapter 11: Writing Automated Tests**
 - [ ] **Chapter 12: An I/O Project: Building a Command Line Program**

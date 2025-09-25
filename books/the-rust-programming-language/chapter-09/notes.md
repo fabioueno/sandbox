@@ -36,3 +36,9 @@ Language syntax:
 > `Result`, `Option`, or another type that implements `FromResidual`._
 
 ## To panic! or Not to panic!
+
+> _Functions often have contracts: their behavior is only guaranteed if the
+> inputs meet particular requirements. Panicking when the contract is violated
+> makes sense because a contract violation always indicates a caller-side bug,
+> and it's not a kind of error you want the calling code to have to explicitly
+> handle._
