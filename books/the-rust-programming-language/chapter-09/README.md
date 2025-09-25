@@ -7,4 +7,4 @@ Language".
 
 - [x] Unrecoverable Errors with panic!
 - [x] Recoverable Errors with Result
-- [ ] To panic! or Not to panic!
+- [x] To panic! or Not to panic!
