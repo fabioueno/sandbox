@@ -19,7 +19,7 @@ organized in its own subdirectory (e.g., `chapter-03/`).
 - [x] **Chapter 07: Managing Growing Projects with Packages, Crates, and Modules**
 - [x] **Chapter 08: Common Collections**
 - [x] **Chapter 09: Error Handling**
-- [ ] **Chapter 10: Generic Types, Traits, and Lifetimes**
+- [x] **Chapter 10: Generic Types, Traits, and Lifetimes**
 - [ ] **Chapter 11: Writing Automated Tests**
 - [ ] **Chapter 12: An I/O Project: Building a Command Line Program**
 - [ ] **Chapter 13: Functional Language Features: Iterators and Closures**
