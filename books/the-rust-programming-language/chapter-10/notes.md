@@ -95,4 +95,52 @@ where T: Display + Clone, U: Clone + Debug { ... }
 
 ## Validating References with Lifetimes
 
-## Generic Type Parameters, Trait Bounds, and Lifetimes Together
+> _Lifetimes ensure that references are valid as long as we need them to be._
+
+> _Every reference in Rust has a lifetime, which is the scope for which that
+> reference is valid. Most of the time, lifetimes are implicit and inferred. We
+> must annotate types only when multiple types are possible. In a similar way,
+> we must annotate lifetimes when the lifetimes of references could be related
+> in a few different ways._
+
+General ideas:
+- Lifetimes prevent dangling references.
+- The Rust compiler has a **borrow checker** to validate all borrows.
+- Lifetime on function/method parameters are called input lifetimes.
+- A static lifetime can live through the entire duration of the program.
+
+Language syntax:
+- Lifetimes' names begin with an apostrophe followed by lowercase letters.
+
+> Consider the following function:
+> ```rust
+> fn longest(x: &str, y: &str) -> &str {
+>     if x.len() > y.len() {
+>         x
+>     } else {
+>         y
+>     }
+> }
+> ```
+>
+> Compiling it, gives the following error:
+> ```bash
+> error[E0106]: missing lifetime specifier
+> --> src/main.rs:1:33
+>   |
+> 1 | fn longest(x: &str, y: &str) -> &str {
+>   |               ----     ----     ^ expected named lifetime parameter
+>   |
+>   = help: this function's return type contains a borrowed value, but the signature does not say whether it is borrowed from `x` or `y`
+> help: consider introducing a named lifetime parameter
+>   |
+> 1 | fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
+>   |           ++++     ++          ++          ++
+> ```
+
+**Lifetime elisions**: In some cases the compiler can infer the lifetime, and
+we don't need to explicitly annotate it:
+1. The compiler automatically assign a lifetime to each reference.
+2. If there's only one parameter reference, its lifetime is assigned to the
+   output lifetime.
+3. If there a `&self` or `&mut self`, its lifetime is assigned to the output.

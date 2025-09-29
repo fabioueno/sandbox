@@ -8,5 +8,5 @@ Language".
 - [x] Removing Duplication by Extracting a Function
 - [x] Generic Data Types
 - [x] Traits: Defining Shared Behavior
-- [ ] Validating References with Lifetimes
-- [ ] Generic Type Parameters, Trait Bounds, and Lifetimes Together
+- [x] Validating References with Lifetimes
+- [x] Generic Type Parameters, Trait Bounds, and Lifetimes Together
