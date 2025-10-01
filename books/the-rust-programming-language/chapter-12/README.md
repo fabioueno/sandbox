@@ -5,7 +5,7 @@ Programming Language".
 
 ## Progress
 
-- [ ] Accepting Command Line Arguments
+- [x] Accepting Command Line Arguments
 - [ ] Reading a File
 - [ ] Refactoring to Improve Modularity and Error Handling
 - [ ] Developing the Library's Functionality with Test-Driven Development
