@@ -2,6 +2,10 @@
 
 ## Accepting Command Line Arguments
 
+General ideas:
+- The function `std::env::args` returns an iterator of the CLI arguments.
+- `collect` converts the iterator into a vector.
+
 ## Reading a File
 
 ## Refactoring to Improve Modularity and Error Handling
