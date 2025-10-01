@@ -8,6 +8,10 @@ General ideas:
 
 ## Reading a File
 
+General ideas:
+- The function `std::fs::read_to_string` takes a file path and returns an
+  `std::io::Result<String>` with the file's contents.
+
 ## Refactoring to Improve Modularity and Error Handling
 
 ## Developing the Library's Functionality with Test-Driven Development
