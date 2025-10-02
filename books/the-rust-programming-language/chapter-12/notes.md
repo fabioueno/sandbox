@@ -14,6 +14,15 @@ General ideas:
 
 ## Refactoring to Improve Modularity and Error Handling
 
+General ideas:
+- The `main.rs` should be responsible for executing the program, while `lib.rs`
+  should contain the logic.
+- It's possible to use the `clone` method on strings to avoid dealing with
+  ownership.
+
+Language syntax:
+- The function `process::exit` finished the program.
+
 ## Developing the Library's Functionality with Test-Driven Development
 
 ## Working with Environment Variables
