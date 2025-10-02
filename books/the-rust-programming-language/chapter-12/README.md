@@ -7,7 +7,7 @@ Programming Language".
 
 - [x] Accepting Command Line Arguments
 - [x] Reading a File
-- [ ] Refactoring to Improve Modularity and Error Handling
+- [x] Refactoring to Improve Modularity and Error Handling
 - [ ] Developing the Library's Functionality with Test-Driven Development
 - [ ] Working with Environment Variables
 - [ ] Writing Error Messages to Standard Error Instead of Standard Output
