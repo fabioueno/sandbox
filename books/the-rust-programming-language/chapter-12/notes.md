@@ -23,8 +23,6 @@ General ideas:
 Language syntax:
 - The function `process::exit` finished the program.
 
-## Developing the Library's Functionality with Test-Driven Development
-
 ## Working with Environment Variables
 
 ## Writing Error Messages to Standard Error Instead of Standard Output
