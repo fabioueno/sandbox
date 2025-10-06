@@ -30,3 +30,6 @@ Language syntax:
   value of the environment variable.
 
 ## Writing Error Messages to Standard Error Instead of Standard Output
+
+Language syntax:
+- The function `eprintln!` writes to standard error instead of standard output.
