@@ -25,4 +25,8 @@ Language syntax:
 
 ## Working with Environment Variables
 
+Language syntax:
+- The function `std::env::var` returns an `std::io::Result<String>` with the
+  value of the environment variable.
+
 ## Writing Error Messages to Standard Error Instead of Standard Output
