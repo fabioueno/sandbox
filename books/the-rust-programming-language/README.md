@@ -21,7 +21,7 @@ organized in its own subdirectory (e.g., `chapter-03/`).
 - [x] **Chapter 09: Error Handling**
 - [x] **Chapter 10: Generic Types, Traits, and Lifetimes**
 - [x] **Chapter 11: Writing Automated Tests**
-- [ ] **Chapter 12: An I/O Project: Building a Command Line Program**
+- [x] **Chapter 12: An I/O Project: Building a Command Line Program**
 - [ ] **Chapter 13: Functional Language Features: Iterators and Closures**
 - [ ] **Chapter 14: More About Cargo and Crates.io**
 - [ ] **Chapter 15: Smart Pointers**
