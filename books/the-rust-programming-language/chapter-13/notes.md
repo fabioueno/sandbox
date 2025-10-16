@@ -33,6 +33,11 @@ let add_one_v4 = |x|               x + 1  ;
 
 ## Processing a Series of Items with Iterators
 
+- Iterators are lazy, i.e. need to be consumed.
+- Consuming adapters are methods that call `next`, and consume the iterator.
+- Iterator adapters are methods that produce a different iterator. They are
+  lazy.
+
 ## Improving Our I/O Project
 
 ## Comparing Performance: Loops vs. Iterators
