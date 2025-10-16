@@ -40,3 +40,6 @@ General ideas:
   lazy.
 
 ## Comparing Performance: Loops vs. Iterators
+
+General ideas:
+- Iterators are zero-cost abstractions, faster than using loops.
