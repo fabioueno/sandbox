@@ -7,5 +7,5 @@ Programming Language".
 
 - [x] Closures: Anonymous Functions That Capture Their Environment
 - [x] Processing a Series of Items with Iterators
-- [ ] Improving Our I/O Project
+- [x] Improving Our I/O Project
 - [ ] Comparing Performance: Loops vs. Iterators
