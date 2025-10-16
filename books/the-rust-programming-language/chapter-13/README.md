@@ -8,4 +8,4 @@ Programming Language".
 - [x] Closures: Anonymous Functions That Capture Their Environment
 - [x] Processing a Series of Items with Iterators
 - [x] Improving Our I/O Project
-- [ ] Comparing Performance: Loops vs. Iterators
+- [x] Comparing Performance: Loops vs. Iterators
