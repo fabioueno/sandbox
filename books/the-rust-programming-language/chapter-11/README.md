@@ -8,3 +8,7 @@ Programming Language".
 - [x] How to Write Tests
 - [x] Controlling How Tests Are Run
 - [x] Test Organization
+
+## Projects
+
+- **05. Adder**: Project to show how tests work.

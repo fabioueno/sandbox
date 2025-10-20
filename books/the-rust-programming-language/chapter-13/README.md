@@ -9,3 +9,8 @@ Programming Language".
 - [x] Processing a Series of Items with Iterators
 - [x] Improving Our I/O Project
 - [x] Comparing Performance: Loops vs. Iterators
+
+## Projects
+
+- **07. Minigrep**: Evolution of the last chapter's project, including
+  closures and iterators.

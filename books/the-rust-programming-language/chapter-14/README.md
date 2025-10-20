@@ -10,3 +10,8 @@ Programming Language".
 - [x] Cargo Workspaces
 - [x] Installing Binaries with cargo install
 - [x] Extending Cargo with Custom Commands
+
+## Projects
+
+- **08. Adder**: Project with a binary and a library crates to explain how
+  workspaces work.

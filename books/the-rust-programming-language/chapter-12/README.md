@@ -11,3 +11,10 @@ Programming Language".
 - [x] Developing the Library's Functionality with Test-Driven Development
 - [x] Working with Environment Variables
 - [x] Writing Error Messages to Standard Error Instead of Standard Output
+
+## Projects
+
+- **06. Minigrep**: Application to bind all concepts together: code
+  organization, collections, error handling, usage of traits and lifetimes,
+  and tests. It also shows how to read command line arguments, read a file,
+  and work with env vars.
