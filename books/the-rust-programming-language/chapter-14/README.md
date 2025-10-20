@@ -7,6 +7,6 @@ Programming Language".
 
 - [x] Customizing Builds with Release Profiles
 - [x] Publishing a Crate to Crates.io
-- [ ] Cargo Workspaces
-- [ ] Installing Binaries with cargo install
-- [ ] Extending Cargo with Custom Commands
+- [x] Cargo Workspaces
+- [x] Installing Binaries with cargo install
+- [x] Extending Cargo with Custom Commands

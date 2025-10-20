@@ -26,4 +26,10 @@ General ideas:
 
 ## Installing Binaries with cargo install
 
+General ideas:
+- We can install binary crates with `cargo install`.
+- If not customized, binaries are added to `$HOME/.cargo/bin`.
+
 ## Extending Cargo with Custom Commands
+
+If a binary is called `cargo-xyz`, we can rust `cargo xyz`.
