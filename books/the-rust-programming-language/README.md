@@ -24,7 +24,7 @@ organized in its own subdirectory (e.g., `chapter-03/`).
 - [x] **Chapter 12: An I/O Project: Building a Command Line Program**
 - [x] **Chapter 13: Functional Language Features: Iterators and Closures**
 - [x] **Chapter 14: More About Cargo and Crates.io**
-- [ ] **Chapter 15: Smart Pointers**
+- [x] **Chapter 15: Smart Pointers**
 - [ ] **Chapter 16: Fearless Concurrency**
 - [ ] **Chapter 17: Object-Oriented Programming Features**
 - [ ] **Chapter 18: Patterns and Matching**

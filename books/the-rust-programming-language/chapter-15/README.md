@@ -5,9 +5,9 @@ Programming Language".
 
 ## Progress
 
-- [ ] Using Box<T> to Point to Data on the Heap
-- [ ] Treating Smart Pointers Like Regular References with Deref
-- [ ] Running Code on Cleanup with the Drop Trait
-- [ ] Rc<T>, the Reference Counted Smart Pointer
-- [ ] RefCell<T> and the Interior Mutability Pattern
-- [ ] Reference Cycles Can Leak Memory
+- [x] Using Box<T> to Point to Data on the Heap
+- [x] Treating Smart Pointers Like Regular References with Deref
+- [x] Running Code on Cleanup with the Drop Trait
+- [x] Rc<T>, the Reference Counted Smart Pointer
+- [x] RefCell<T> and the Interior Mutability Pattern
+- [x] Reference Cycles Can Leak Memory
