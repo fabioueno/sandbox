@@ -51,3 +51,8 @@ Language syntax:
 - The `std::sync::atomic` module has thread-safe primitive types.
 
 ## Extensible Concurrency with the Send and Sync Traits
+
+General ideas:
+- The `Send` trait transfers ownership of values between threads.
+- The `Sync` trait says that types with `Send` can be referenced from multiple
+  threads.

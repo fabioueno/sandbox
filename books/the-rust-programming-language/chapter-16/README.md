@@ -8,4 +8,4 @@ Programming Language".
 - [x] Using Threads to Run Code Simultaneously
 - [x] Using Message Passing to Transfer Data Between Threads
 - [x] Shared-State Concurrency
-- [ ] Extensible Concurrency with the Send and Sync Traits
+- [x] Extensible Concurrency with the Send and Sync Traits
