@@ -34,4 +34,20 @@ Language syntax:
 
 ## Shared-State Concurrency
 
+General ideas:
+- It's possible to share state between threads using a mutex (mutual
+  exclusion). This data structure uses locks to allow only one thread at a
+  time.
+- Mutexes provide interior mutability, so we have the same advantages (and
+  disadvantages) of `RefCell<T>`, which means we can introduce deadlocks.
+- `Rc` is not thread-safe, which means it can't be used to pass data between
+  threads, but `Arc` (atomic reference-counted) solves this.
+
+Language syntax:
+- We create mutexes with `Mutex::new` and it returns a `Mutex<T>`.
+- We acquire a lock on mutexes by calling `lock` on the mutex, which returns a
+  `MutexGuard` smart pointer.
+- To get the value, we call `unwrap` in the smart pointer.
+- The `std::sync::atomic` module has thread-safe primitive types.
+
 ## Extensible Concurrency with the Send and Sync Traits
