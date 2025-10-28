@@ -27,7 +27,7 @@ organized in its own subdirectory (e.g., `chapter-03/`).
 - [x] **Chapter 15: Smart Pointers**
 - [x] **Chapter 16: Fearless Concurrency**
 - [x] **Chapter 17: Object-Oriented Programming Features**
-- [ ] **Chapter 18: Patterns and Matching**
+- [x] **Chapter 18: Patterns and Matching**
 - [ ] **Chapter 19: Advanced Features**
 - [ ] **Chapter 20: Final Project: Building a Multithreaded Web Server**
 - [ ] **Appendix A: Keywords**
