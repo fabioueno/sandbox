@@ -3,6 +3,7 @@
 ## Defining and Instantiating Structs
 
 General ideas:
+
 - Structs are tuples with added meaning: we must name the struct and it's
   values.
 - When a parameter name (variable) is the same as the struct's field, we can
@@ -32,7 +33,7 @@ General ideas:
 > = note: in format strings you may be able to use `{:?}` (or {:#?} for pretty-print) instead
 > = note: this error originates in the macro `$crate::format_args_nl` which comes from the expansion of the macro `println` (in Nightly builds, run with -Z macro-backtrace for more info)
 > ```
-> 
+>
 > Trying to use the suggested `{:?}` raises a different compilation error:
 > ```text
 > error[E0277]: `Rectangle` doesn't implement `Debug`
@@ -52,16 +53,18 @@ General ideas:
 > 12| struct Rectangle {
 > |
 > ```
-> 
+>
 > To fix that, we need to add `#[derive(Debug)]` to the struct.
 
 Language syntax:
+
 - We can use the `dbg!` macro to print a struct. It takes ownership, prints to
   `stderr`, then return ownership.
 
 ## Method Syntax
 
 General ideas:
+
 - Methods are like functions, but defined within the context of structs.
 - The first parameter of methods is always `self`, the instance of the struct.
 - Associated functions are those defined in an `impl` block.

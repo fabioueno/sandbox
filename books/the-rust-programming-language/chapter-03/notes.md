@@ -3,6 +3,7 @@
 ## Variables and Mutability
 
 General ideas:
+
 - Constants are always immutable. The type must be annotated.
 - Rust's naming convention for constants is `SCREAMING_SNAKE_CASE`.
 - When a variable shadows another, it takes any uses of the variable to itself
@@ -14,6 +15,7 @@ General ideas:
 ## Data Types
 
 General ideas:
+
 - Arrays are fixed-size. Vectors can grow/shrink.
 - If we try to access an element of an array that's out of bounds, we get a
   panic—Rust immediately stops the program, preventing invalid memory access.
@@ -21,6 +23,7 @@ General ideas:
 ## Functions
 
 General ideas:
+
 - The order of the functions doesn't matter.
 - In function signatures, the type of each parameter must be declared
 - The return type of functions must be declared.
@@ -28,7 +31,7 @@ General ideas:
   evaluated.
 
 > - _Statements are instructions that perform some actions and do not return a
-> value._
+    > value._
 > - _Expressions evaluate to a resultant value._
 
 > _Expressions do not include ending semicolons. If you add a semicolon to the
@@ -37,13 +40,14 @@ General ideas:
 
 ```rust
 let y = {
-    let x = 3; // Statement
-    x + 1      // Expression
+let x = 3; // Statement
+x + 1      // Expression
 };
 ```
 
 ## Control Flow
 
 General ideas:
+
 - Rust doesn't automatically convert non-boolean values to booleans.
 - Rust variables must have a single type.

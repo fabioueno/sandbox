@@ -3,6 +3,7 @@
 ## Packages and Crates
 
 General ideas:
+
 - Crates can contain modules.
 - A crate can be a binary crate or library crate.
 - Binary crates have a `main` function and are executable.
@@ -14,9 +15,11 @@ General ideas:
 ## Defining Modules to Control Scope and Privacy
 
 General ideas:
+
 - Everything inside a module is private by default.
 
 Language syntax:
+
 - `mod` defines modules.
 
 ## Paths for Referring to an Item in the Module Tree
@@ -30,14 +33,17 @@ Language syntax:
 > within the module public as well._
 
 General ideas:
+
 - A public module still has everything private by default.
 
 Language syntax:
+
 - `pub` makes a module public.
 
 ## Bringing Paths into Scope with the use Keyword
 
 Language syntax:
+
 - We can use `use` to bring a path to scope.
 - By using `as` we can add an alias for a type.
 - `pub use` brings a path to scope and re-exports it to other modules.
@@ -45,4 +51,5 @@ Language syntax:
 ## Separating Modules into Different Files
 
 General ideas:
+
 - Ideally, each module has its own file.

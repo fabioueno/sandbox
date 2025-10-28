@@ -3,9 +3,11 @@
 ## Using Threads to Run Code Simultaneously
 
 General ideas:
+
 - In Rust, a thread is mapped 1:1 to a OS thread.
 
 Language syntax:
+
 - We can create new threads with `thread::spawn` with a closure parameter.
 - `thread::spawn` returns a `JoinHandler<T>`. Calling `join` on it blocks
   the currently running thread until it completes.
@@ -19,10 +21,12 @@ Language syntax:
 ## Using Message Passing to Transfer Data Between Threads
 
 General ideas:
+
 - We can use pass messages between threads through channels.
 - The transmitter's `send` method take ownership of the parameter.
 
 Language syntax:
+
 - Channels can be created with `mpsc::channel` (multiple producer, single
   consumer). It returns a tuple, containing the transmitter (usually called
   `tx`) and the receiver (usually named `rx`).
@@ -35,6 +39,7 @@ Language syntax:
 ## Shared-State Concurrency
 
 General ideas:
+
 - It's possible to share state between threads using a mutex (mutual
   exclusion). This data structure uses locks to allow only one thread at a
   time.
@@ -44,6 +49,7 @@ General ideas:
   threads, but `Arc` (atomic reference-counted) solves this.
 
 Language syntax:
+
 - We create mutexes with `Mutex::new` and it returns a `Mutex<T>`.
 - We acquire a lock on mutexes by calling `lock` on the mutex, which returns a
   `MutexGuard` smart pointer.
@@ -53,6 +59,7 @@ Language syntax:
 ## Extensible Concurrency with the Send and Sync Traits
 
 General ideas:
+
 - The `Send` trait transfers ownership of values between threads.
 - The `Sync` trait says that types with `Send` can be referenced from multiple
   threads.

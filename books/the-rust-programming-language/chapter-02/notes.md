@@ -7,6 +7,7 @@
 > you can see everything in it at https://doc.rust-lang.org/std/prelude/index.html._
 
 Language syntax:
+
 - The keyword `use` is used to "import" types into scope.
 - The keyword `let` created a new **immutable** variable. To make it mutable
   use `mut`.
@@ -71,6 +72,7 @@ a type that handles the terminal's standard input.
 ## Generating a Secret Number
 
 Language syntax:
+
 - `start..=end` creates a lower- and upper-bound inclusive range.
 
 A `Trait` defines a functionality for a particular type, that can be shared
@@ -83,6 +85,7 @@ with other types.
 > fits that arm's pattern.
 
 General ideas:
+
 - Rust is strongly typed, but also has type inference.
 - It's possible to reuse a variable (**shadowing**).
 
@@ -115,6 +118,7 @@ The `parse` method converts strings to other types.
 ## Allowing Multiple Guesses with Looping
 
 Language syntax:
+
 - The `loop` keyword creates an infinite loop. We can use `break` to exit it.
 
 > [!TIP]

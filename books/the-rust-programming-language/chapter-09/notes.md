@@ -3,6 +3,7 @@
 ## Unrecoverable Errors with panic!
 
 General ideas:
+
 - `panic!` is a macro that creates an unrecoverable error.
 - It's possible to prevent unwinding on panic, but then the OS must clean up
   the memory that was being used by the program.
@@ -14,6 +15,7 @@ General ideas:
 ## Recoverable Errors with Result
 
 Non-critical errors (recoverable) return a `Result`:
+
 ```rust
 enum Result<T, E> {
     Ok(T),
@@ -25,6 +27,7 @@ enum Result<T, E> {
 - `E` is a generic type of the error (failure).
 
 Language syntax:
+
 - The `unwrap` method is a shortcut for matching a `Result`. If successful, it
   returns the value; if unsuccessful, it calls `panic!`.
 - `expect` is similar to `unwrap`, but receives an error message.

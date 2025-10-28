@@ -3,12 +3,14 @@
 ## Removing Duplication by Extracting a Function
 
 General ideas:
+
 - We can create functions that operate on "placeholder" types to remove
   duplication.
 
 ## Generic Data Types
 
 General ideas:
+
 - Generics can be used in functions, structs, enums, and methods. The syntax is
   similar.
 
@@ -60,6 +62,7 @@ impl<T> Point<T> {
 > has a certain behavior._
 
 General ideas:
+
 - The scope must be brought into scope when using a struct that implements it.
 - It's possible to conditionally implement methods using traits.
 
@@ -72,6 +75,7 @@ impl<T: Display + PartialOrd> Pair<T> {
 ```
 
 Language syntax:
+
 - To implement traits, we write `impl <Trait> for <struct>`.
 - Traits as parameters is used with `&impl`.
 - We can also use traits in parameters with a trait bound:
@@ -104,12 +108,14 @@ where T: Display + Clone, U: Clone + Debug { ... }
 > in a few different ways._
 
 General ideas:
+
 - Lifetimes prevent dangling references.
 - The Rust compiler has a **borrow checker** to validate all borrows.
 - Lifetime on function/method parameters are called input lifetimes.
 - A static lifetime can live through the entire duration of the program.
 
 Language syntax:
+
 - Lifetimes' names begin with an apostrophe followed by lowercase letters.
 
 > Consider the following function:
@@ -140,6 +146,7 @@ Language syntax:
 
 **Lifetime elisions**: In some cases the compiler can infer the lifetime, and
 we don't need to explicitly annotate it:
+
 1. The compiler automatically assign a lifetime to each reference.
 2. If there's only one parameter reference, its lifetime is assigned to the
    output lifetime.

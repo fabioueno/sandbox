@@ -13,6 +13,7 @@
 > running._
 
 General ideas:
+
 - A `String` has three parts: a pointer (address to the heap), a length, and a
   capacity.
 - Assigning a string variable to another copies the **stack**, not the
@@ -65,6 +66,7 @@ fn give_ownership() -> String { ... }
 ## References and Borrowing
 
 General ideas:
+
 - We can pass a reference (`&`) instead of a pointer. This allows us to access
   the data without moving it, a.k.a. **borrowing**.
 - References are immutable by default.
@@ -106,5 +108,6 @@ fn borrow_mutable_reference(s: &mut String) { ... }
 ## The Slice Type
 
 General ideas:
+
 - A slice is a reference to a contiguous sequence of elements in a collection.
 - The string slice type is `&str`.

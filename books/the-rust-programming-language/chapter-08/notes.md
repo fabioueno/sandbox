@@ -3,10 +3,12 @@
 ## Storing Lists of Values with Vectors
 
 General ideas:
+
 - Vector can only store values of the same type.
 - To modify a vector (with `push`, for example), we need to make it mutable.
 
 Language syntax:
+
 - We can create a vector with `Vec::new()` or with the macro `vec!`.
 - The `push` method adds elements to the end of the vector.
 - The `pop` method removes and returns the last element of the vector.
@@ -37,10 +39,12 @@ Language syntax:
 > string type._
 
 General ideas:
+
 - It's not possible to access a string by index, like a vector, but we can
   create slices (`&s[0..5]`).
 
 Language syntax:
+
 - We can create a string with `String::new`, `String::from` or with the method
   `to_string` from types with the `Display` trait.
 - The `push_str` is used to append a string slice.
@@ -51,6 +55,7 @@ Language syntax:
 ## Storing Keys with Associated Values in Hash Maps
 
 Language syntax:
+
 - `HashMap::new()` creates a new hash map.
 - We can add new entries to a hash map with `insert()`.
 - `get()` returns an `Option<&V>`.

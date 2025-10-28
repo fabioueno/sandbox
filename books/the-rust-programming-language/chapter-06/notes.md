@@ -3,6 +3,7 @@
 ## Defining an enum
 
 General ideas:
+
 - Enums provides a way to enumerate a set of possible values.
 - We can put directly into each enum variant (each variant can have different
   data type, even no data).
@@ -19,6 +20,7 @@ General ideas:
 > data inside, and then execute code based on it.
 
 Language syntax:
+
 - A `match`'s arms must cover all possible scenarios.
 - In the last arm, we can use a variable as a catch-all.
 - We can use `_` as a catch-all that ignores the actual values (without binding
@@ -27,5 +29,6 @@ Language syntax:
 ## Concise Control Flow with if let
 
 Language syntax:
+
 - `if let` combines both `if` and `let`.
 - The left hand side of the equality is the pattern to match.
