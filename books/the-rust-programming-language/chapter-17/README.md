@@ -7,7 +7,7 @@ Programming Language".
 
 - [x] Characteristics of Object-Oriented Languages
 - [x] Using Trait Objects That Allow for Values of Different Types
-- [ ] Implementing an Object-Oriented Design Pattern
+- [x] Implementing an Object-Oriented Design Pattern
 
 ## Projects
 

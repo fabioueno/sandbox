@@ -26,7 +26,7 @@ organized in its own subdirectory (e.g., `chapter-03/`).
 - [x] **Chapter 14: More About Cargo and Crates.io**
 - [x] **Chapter 15: Smart Pointers**
 - [x] **Chapter 16: Fearless Concurrency**
-- [ ] **Chapter 17: Object-Oriented Programming Features**
+- [x] **Chapter 17: Object-Oriented Programming Features**
 - [ ] **Chapter 18: Patterns and Matching**
 - [ ] **Chapter 19: Advanced Features**
 - [ ] **Chapter 20: Final Project: Building a Multithreaded Web Server**

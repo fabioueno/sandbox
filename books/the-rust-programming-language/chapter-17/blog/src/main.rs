@@ -1,4 +1,4 @@
-use blog::{Post, PostWithEnum};
+use blog::{Post, PostType, PostWithEnum};
 
 fn main() {
     let mut post = Post::new();
@@ -22,4 +22,14 @@ fn main() {
 
     post2.approve();
     assert_eq!("I ate a salad for lunch today", post2.content());
+
+    let mut post3 = PostType::new();
+
+    post3.add_text("I ate a salad for lunch today");
+
+    let post3 = post3.request_review();
+
+    let post3 = post3.approve();
+
+    assert_eq!("I ate a salad for lunch today", post3.content());
 }

@@ -88,6 +88,8 @@ impl State for Published {
     }
 }
 
+// The following is a different implementation of Post using enum.
+
 enum EnumState {
     Draft,
     Review,
@@ -143,5 +145,51 @@ impl PostWithEnum {
         }
 
         ""
+    }
+}
+
+// The last implementation uses types to represent states.
+
+pub struct PostType {
+    content: String,
+}
+
+impl PostType {
+    pub fn new() -> DraftPostType {
+        DraftPostType {
+            content: String::new(),
+        }
+    }
+
+    pub fn content(&self) -> &str {
+        &self.content
+    }
+}
+
+pub struct DraftPostType {
+    content: String,
+}
+
+impl DraftPostType {
+    pub fn add_text(&mut self, text: &str) {
+        self.content.push_str(text);
+    }
+
+    pub fn request_review(self) -> PendingReviewPostType {
+        PendingReviewPostType {
+            content: self.content,
+        }
+    }
+}
+
+pub struct PendingReviewPostType {
+    content: String,
+}
+
+impl PendingReviewPostType {
+    pub fn approve(self) -> PostType {
+        PostType {
+            content: self.content,
+        }
     }
 }
