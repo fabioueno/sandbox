@@ -6,7 +6,7 @@ Programming Language".
 ## Progress
 
 - [x] Unsafe Rust
-- [ ] Advanced Traits
-- [ ] Advanced Types
-- [ ] Advanced Functions and Closures
+- [x] Advanced Traits
+- [x] Advanced Types
+- [x] Advanced Functions and Closures
 - [ ] Macros
