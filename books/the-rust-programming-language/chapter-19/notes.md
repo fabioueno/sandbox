@@ -51,3 +51,16 @@ General ideas:
   `fn` and it's called Function Pointer.
 
 ## Macros
+
+General ideas:
+
+- Macros allow us to write code that writes code (metaprogramming).
+- Macros can take a variable number of parameters.
+- Macros are expanded before the compiler interpretation.
+- Procedural macros accept code, operate on it, and produce an output.
+- Attribute-like macros allow the creation of attributes.
+- Function-like macros create macros that look like functions.
+
+Language syntax:
+
+- We create declarative macros with `macro_rules!`.

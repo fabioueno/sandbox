@@ -9,4 +9,9 @@ Programming Language".
 - [x] Advanced Traits
 - [x] Advanced Types
 - [x] Advanced Functions and Closures
-- [ ] Macros
+- [x] Macros
+
+## Projects
+
+- **10. Hello Macro**: Simple project to introduce procedural macros.
+- **11. Pancakes**: Project to showcase the usage of procedural macros.

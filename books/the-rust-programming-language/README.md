@@ -28,7 +28,7 @@ organized in its own subdirectory (e.g., `chapter-03/`).
 - [x] **Chapter 16: Fearless Concurrency**
 - [x] **Chapter 17: Object-Oriented Programming Features**
 - [x] **Chapter 18: Patterns and Matching**
-- [ ] **Chapter 19: Advanced Features**
+- [x] **Chapter 19: Advanced Features**
 - [ ] **Chapter 20: Final Project: Building a Multithreaded Web Server**
 - [ ] **Appendix A: Keywords**
 - [ ] **Appendix B: Operators and Symbols**
