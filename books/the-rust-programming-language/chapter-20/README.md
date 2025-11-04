@@ -5,6 +5,11 @@ Programming Language".
 
 ## Progress
 
-- [ ] Building a Single-Threaded Web Server
-- [ ] Turning Our Single-Threaded Server into a Multithreaded Server
-- [ ] Graceful Shutdown and Cleanup
+- [x] Building a Single-Threaded Web Server
+- [x] Turning Our Single-Threaded Server into a Multithreaded Server
+- [x] Graceful Shutdown and Cleanup
+
+## Projects
+
+- **12. Hello**: Server implementation, beginning with single-thread, then
+  multithreaded.
